@@ -1,0 +1,348 @@
+
+/* 4.0 hompage page */
+
+$HeaderFont: 'Merriweather', serif;
+$ParagrahFont: 'Scheherazade', serif;
+
+.home{
+  background: url("img/8darker.jpg") no-repeat fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 1270px;
+  width: 100%;
+  padding: 0;
+
+}
+
+
+svg{
+  width: 90%;
+  padding: 80px 0 0 150px;
+}
+
+
+.aboutme{
+  background-color: #02152D;
+  color:white;
+  padding: 120px 85px;
+  text-align: center;
+    h1{
+      font-weight: 700;
+      font-size: 120px;
+			font-family: $HeaderFont;
+			margin: 0;
+    }
+    hr{
+      border-width: 3px;
+      max-width: 1200px;
+			margin: 10px 600px;
+    }
+    p{
+      font-weight: 100;
+			margin: 0px 90px;
+			font-family: $ParagrahFont;
+			font-size: 45px;
+			line-height: 1;
+    }
+}
+
+.no-padding{
+  padding:0;
+}
+
+.no-gutter > [class*=col-] {
+    padding: 0;
+		margin: 0;
+}
+
+
+
+.portfolio__box {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+
+		.portfolio__box__caption {
+			    display: block;
+			    position: absolute;
+			    bottom: 0;
+			    width: 100%;
+			    height: 100%;
+			    text-align: center;
+			    color: #fff;
+			    opacity: 0;
+			    background: rgba(89, 116, 155, 0.9);
+			    -webkit-transition: all .35s;
+			    -moz-transition: all .35s;
+			    transition: all .35s;
+			    left:0px;
+			    right:0px;
+
+					.portfolio__box__caption__content{
+						position: absolute;
+						top: 50%;
+						width: 100%;
+						text-align: center;
+						transform: translateY(-50%);
+
+						.project__category,
+            .project__name {
+                padding: 0 15px;
+            }
+						.project__category {
+								text-transform: uppercase;
+								font-weight: 600;
+								font-size: 25px;
+						}
+						.project__name {
+							font-family: $ParagrahFont;
+							font-size: 25px;
+							line-height:.8;
+							text-align: center;
+						}
+						p{
+							font-family: $ParagrahFont;
+							font-size: 23px;
+						}
+					}
+			}
+			&:hover {
+					.portfolio__box__caption {
+							opacity: 1;
+					}
+			}
+
+  }
+
+
+#portfolio 	.col-rt-2.col-lg-4.col-sm-6{
+    height: 300px;
+    display: flex;
+}
+a.portfolio__box {
+    display: flex;
+}
+
+
+
+
+
+.conecpts{
+  background-color: white;
+	padding: 0;
+	text-align: right;
+	color:black;
+
+	.container{
+		padding:0px;
+		margin: 0px;
+		width:100%;
+		overflow: hidden;
+		.concepts__container{
+			padding-top: 160px;
+			h2{
+				font-size: 60px;
+				font-weight: 600;
+				font-family: $HeaderFont;
+				padding-top: 100px;
+			}
+				hr{
+					border-width: 3px;
+					max-width: 400px;
+					border-color: #062E61;
+					margin-right: 0;
+				}
+
+					p{
+						font-size: 50px;
+						line-height: 1;
+						font-family: $ParagrahFont;
+						font-weight: 100;
+						text-align: right;
+						margin-left: 130px;
+
+					}
+
+		}
+
+
+
+					img{
+						width:100%;
+						height: 100%;
+						margin-left: 20px;
+
+					}
+			}
+
+}
+
+footer{
+  padding:30px 0;
+  background-color: #02152D;
+	color:#526A88;
+	font-family: $ParagrahFont;
+	height: 320px;
+		.footer__icons{
+			padding: 40px 0;
+			text-align: center;
+
+			i{
+				padding:0px 8px;
+				font-size: 80px;
+
+				&:hover{
+					color:#fff;
+				}
+			}
+			p{
+				font-size: 40px;
+				line-height: 1;
+			}
+		}
+}
+
+/*animations*/
+#SlideRight {
+  -webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: ease-in-out;
+	-o-animation-duration: 2s;
+	-o-animation-timing-function: ease-in-out;
+	-moz-animation-duration: 2s;
+	-moz-animation-timing-function: ease-in-out;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+}
+
+
+#SlideLeft {
+  -webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: ease-in-out;
+	-o-animation-duration: 2s;
+	-o-animation-timing-function: ease-in-out;
+	-moz-animation-duration: 2s;
+	-moz-animation-timing-function: ease-in-out;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+
+}
+
+.page{
+  background: url("img/8darkerWithLogo.jpg")no-repeat 60% 55%;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  padding: 0;
+
+}
+
+
+
+/* Carousel */
+.carousel{
+	padding: 0;
+	background-color: #0A1F3A;
+		.item{
+				height: 250px;
+					.carousel-caption{
+						bottom:0;
+						padding:0;
+						display:flex;
+			h1{
+				font-size: 30px;
+				text-align: right;
+				text-shadow: none;
+				font-family: $HeaderFont;
+				font-weight: 700;
+				padding-right: 10px;
+				flex-grow: 1;
+			}
+			 p{
+				text-align: justify;
+				text-shadow: none;
+				font-size: 60px;
+				font-family: $ParagrahFont;
+				line-height: 0.8;
+				padding: 15px 0 0 10px;
+				flex-grow: 3;
+			}
+		}
+	}
+}
+
+a.left.carousel-control {
+    background-image: none;
+		width: 8%;
+		opacity: 1;
+}
+a.right.carousel-control {
+    background-image: none;
+		width:8%;
+		opacity: 1;
+}
+
+i.fa.fa-arrow-circle-o-left {
+	position: absolute;
+	top: 40px;
+	right: 124px;
+	text-shadow: none;
+	font-size: 40px;
+}
+
+i.fa.fa-arrow-circle-o-right {
+	position: absolute;
+	top: 40px;
+	right: 63px;
+	text-shadow: none;
+	font-size: 40px;
+}
+
+
+
+
+//Singles Post page
+.single__page{
+		margin: 0 200px;
+	h1{
+			font-family: $HeaderFont;
+			color:black;
+			font-weight: 500;
+			font-size: 35px;
+
+	}
+	.single__author{
+		padding-bottom: 30px;
+		.date{
+			color:black;
+			font-family: $ParagrahFont;
+			font-size: 18px;
+		}
+
+		.author{
+			color:black;
+			font-family: $ParagrahFont;
+			font-size: 18px;
+		}
+	}
+
+	p{
+		font-family: $ParagrahFont;
+		font-size: 25px;
+		line-height: 1;
+
+	}
+}
+
+.single__comment{
+	padding-top:150px;
+}
+
+.clearfix{
+	clear: both;
+}

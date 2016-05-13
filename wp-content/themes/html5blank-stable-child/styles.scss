@@ -1,0 +1,46 @@
+/*
+Theme Name: HTML5 Blank Child
+Theme URI: http://html5blank.com
+Template: html5blank-stable
+Author: Todd Motto (@toddmotto)
+Author URI: http://toddmotto.com
+Description: HTML5 Blank WordPress Theme
+Tags: Blank,HTML5,CSS3
+Version: 1.4.3.1462483245
+Updated: 2016-05-05 21:20:45
+
+*/
+
+/* 1.0 Reset
+		2.0 Varabiles
+		3.0 navbar
+		4.0 hompage page
+		5.0 aboutme page
+		6.0 taxonmy page
+		7.0 singles php page
+		8.0 media query
+*/
+
+
+
+
+
+$HeaderFont: 'Merriweather', serif;
+$ParagrahFont: 'Scheherazade', serif;
+
+
+
+
+
+
+
+
+
+@import 'css/_resets.scss';
+@import 'css/_varabiles.scss';
+@import 'css/_navbar.scss';
+@import 'css/_homepage.scss';
+@import 'css/_aboutme.scss';
+@import 'css/_taxonomypage.scss';
+@import 'css/_singlepage.scss';
+@import 'css/_media.scss';

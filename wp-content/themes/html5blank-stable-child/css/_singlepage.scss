@@ -1,0 +1,32 @@
+
+$HeaderFont: 'Merriweather', serif;
+$ParagrahFont: 'Scheherazade', serif;
+
+.portfolio_page{
+  padding: 100px 0;
+  img{
+    width:100%;
+    height: 600px;
+  }
+	.portfolio__page__title{
+		color:#000;
+		font-family: $HeaderFont;
+		font-weight: 600px;
+		font-size: 30px;
+		padding-left: 45px;
+	hr{
+		border-width: 3px;
+		max-width: 219px;
+		border-color: #062E61;
+		margin-left: 0;
+
+	}
+	.portfolio__page__content{
+		color:#000;
+		font-family: $ParagrahFont;
+		line-height: 1;
+		font-size: 45px;
+    margin: 0;
+	}
+}
+}

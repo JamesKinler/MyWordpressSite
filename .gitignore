@@ -1,0 +1,21 @@
+# Ignore Everything in the root except for wp-content directory
+
+/*
+!.gitignore
+!wp-content/
+
+# Ignore Everything in the wp-content directory except for themes and & plugins
+
+*wp-content/*
+
+!wp-content/themes/
+!wp-content/plugins/
+
+# Ignore Misc Files and Files
+
+*.log
+*.back
+*.bak
+*.sql
+.htaccess
+.maintenance

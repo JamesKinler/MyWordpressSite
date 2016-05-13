@@ -1,0 +1,51 @@
+/* 5.0 aboutme page */
+
+$HeaderFont: 'Merriweather', serif;
+$ParagrahFont: 'Scheherazade', serif;
+
+
+
+.about_page{
+	padding: 75px 0;
+	h1{
+		text-align: center;
+		font-size: 30px;
+		padding: 20px 0;
+		font-family: $HeaderFont;
+		font-weight: 600;
+	}
+	p{
+		text-align: justify;
+		text-indent: 40px;
+		margin: 0 80px;
+		font-size: 25px;
+		font-family: $ParagrahFont;
+		line-height: 1;
+	}
+		img{
+			max-width: 600px;
+			max-height: 600px;
+			float: left;
+			padding: 0 15px 0 25px;
+		}
+}
+
+
+
+.about__page__counter{
+	text-align: center;
+	padding: 90px;
+	color: #02152D;
+		h2{
+				font-family: $HeaderFont;
+				font-size: 18px;
+				font-weight: 400;
+
+		}
+
+		.odometer{
+			font-size: 40px;
+
+		}
+
+}

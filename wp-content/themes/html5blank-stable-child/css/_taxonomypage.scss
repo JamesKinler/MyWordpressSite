@@ -1,0 +1,27 @@
+$HeaderFont: 'Merriweather', serif;
+$ParagrahFont: 'Scheherazade', serif;
+
+
+/* 6.0 taxonmy page*/
+
+.nav_archive{
+	padding: 15px;
+	margin-right: 15px;
+	float: right;
+
+	li{
+		padding: 10px 15px;
+		display: inline-block;
+		font-size: 12px;
+		font-weight: 400;
+		font-family: $HeaderFont;
+		a{
+			&:hover{
+					text-decoration: none;
+			}
+		}
+	}
+}
+.nav_archive li.active{
+	border-bottom: 2px solid #122769;
+}
